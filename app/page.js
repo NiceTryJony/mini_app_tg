@@ -15,9 +15,9 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing hello i'm dont npw<code>app/page.js</code>.
+            Get started by editing hello i'm dont now<code>app/page.js</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes instantly. but can i do this?</li>
         </ol>
 
         <div className={styles.ctas}>

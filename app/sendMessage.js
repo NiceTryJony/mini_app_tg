@@ -10,7 +10,7 @@ async function sendMessage() {
       url: `${baseUrl}/sendMessage`,
       data: {
         chat_id: chatId,
-        text: 'Нажмите для открытия приложения',
+        text: 'Нажмите для открытия приложения_1',
         reply_markup: JSON.stringify({
           inline_keyboard: [
             [
