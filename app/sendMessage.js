@@ -6,9 +6,9 @@ const baseUrl = `https://api.telegram.org/bot${token}`;
 async function sendMessage() {
   try {
     const options = {
-      method: 'GET',
+      method: 'POST',
       url: `${baseUrl}/sendMessage`,
-      params: {
+      data: {
         chat_id: chatId,
         text: 'Нажмите для открытия приложения',
         reply_markup: JSON.stringify({
